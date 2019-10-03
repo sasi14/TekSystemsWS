@@ -1,0 +1,71 @@
+.title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+.expanse {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+.expanse td, .expanse th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.expanse tr:nth-child(even){background-color: #f2f2f2;}
+
+.expanse tr:hover {background-color: #ddd;}
+
+.expanse th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.cust_hidden {
+  display: none;
+}
+
+.cust_expanse {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+.cust_expanse td, .cust_expanse th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.cust_expanse tr:nth-child(even){background-color: #f2f2f2;}
+
+.cust_expanse tr:hover {background-color: #ddd;}
+
+.cust_expanse th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
